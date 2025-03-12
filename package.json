@@ -1,0 +1,13 @@
+{
+  "name": "8n8-task-timer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "npx tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
