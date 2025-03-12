@@ -1,8 +1,6 @@
-export const teste = () => {};
+export const teste = () => { };
 const button = document.querySelector("button");
-
 function darOla() {
-  console.log("ola");
+    console.log("ola");
 }
-
 button?.addEventListener("click", darOla);
