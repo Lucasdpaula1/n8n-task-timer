@@ -1,2 +1,2 @@
-import { convertionTime } from "./convertionTime";
+import { convertionTime } from "./convertionTime.js";
 export const init = () => {};
