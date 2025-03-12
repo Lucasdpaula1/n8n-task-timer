@@ -1,5 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #d72638;
+  --color-secondary: #f8e9a1;
+  --bg-light-white: #f4f4f4;
+  --text-black: #333333;
+  --text-gray-500: #a1a1a1;
+}
+
+body {
+  background-color: var(--color-light-white);
+  font-family: "Roboto" monospace;
+  grid-template-columns: repeat(12, 1fr);
+  color: var(--text-black);
 }
