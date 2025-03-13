@@ -1,2 +1,2 @@
-import { teste } from "./modules/teste.js";
-teste();
+import { init } from "./modules/init.js";
+init();
