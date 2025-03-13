@@ -13,11 +13,11 @@ export async function n8nConnection(body: { task: string }) {
       body: JSON.stringify(body),
     };
     const data = await fetch(
-      "https://lspaula.app.n8n.cloud/webhook-test/479138e2-e6c1-4bb1-b716-bed03865e246",
+      "https://celima.app.n8n.cloud/webhook-test/task",
       options
     );
     console.log(data);
-    alert("automação disparada com sucesso verifique seu trelo/asano");
+    alert("automação disparada com sucesso verifique seu trelo/asana");
   } catch (error) {
     throw error;
   }

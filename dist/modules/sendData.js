@@ -5,7 +5,10 @@ export function sendData(e) {
     try {
         const time = document.getElementById("time");
         const task = document.getElementById("task");
-        if (!(task instanceof HTMLInputElement && time instanceof HTMLInputElement)) {
+        const card = document.getElementById("card");
+        if (!(task instanceof HTMLInputElement &&
+            time instanceof HTMLInputElement &&
+            card)) {
             throw new SafeGuard("tipo não compátivel");
         }
         convertionTime(time.value, task.value);

@@ -7,7 +7,7 @@ export function convertionTime(time, task) {
             const timeSplit = time.split(":");
             return timeStringToSeconds(timeSplit, task);
         }
-        return timeStringToSeconds(time, task);
+        // return timeStringToSeconds(time, task);
     }
     catch (error) {
         ModularizationError(error);
